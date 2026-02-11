@@ -66,6 +66,17 @@
 | Active Learning | Active Learning | 主动学习 | 模型主动选择信息量大的数据进行标注和学习。 |
 | Continual Learning | Continual Learning | 持续学习 | 使模型能够不断学习新知识而不遗忘旧知识。 |
 | Generative AI | Generative Artificial Intelligence | 生成式AI | 强调AI创造新内容，基于数据生成新实例。 |
+| Agent2UI | Agent to User Interface | 智能体驱动界面 | AI 根据用户意图动态生成、调整 UI 组件或布局的技术，强调界面不再是静态硬编码的。 |
+| Skills | Skills | 技能 | 赋予大模型的原子化能力（如发邮件、查数据库）。模型通过描述文档判断何时调用这些外部函数。 |
+| Agentic Workflow | Agentic Workflow | 智能体工作流 | 区别于传统的“单次提问”，通过多轮迭代、反思、规划来解决复杂任务的一套自动化流程。 |
+| GraphRAG | Graph Retrieval-Augmented Generation | 图增强检索生成 | 结合知识图谱（KG）与 RAG，让 AI 能理解实体间的复杂关联，适合处理长文本和宏观关系分析。 |
+| Vibe Coding | Vibe Coding | 氛围编程 | 开发者只需表达高层意图或“感觉”，由 AI 负责底层逻辑实现。强调意图理解而非语法细节。 |
+| ReAct | Reasoning and Acting | 推理动作框架 | Agent 的经典范式：观察环境 (Observe) -> 内部推理 (Reason) -> 执行动作 (Act) 的循环。 |
+| HITL | Human-in-the-Loop | 人机协同 / 人在回路 | 在 Agent 执行任务的关键节点（如大额支付）引入人工确认，平衡自动化与安全性。 |
+| Function Calling | Function Calling | 函数调用 | 模型识别用户意图并输出符合特定函数签名的参数的能力，是“技能”实现的底层基石。 |
+| Orchestration | Agent Orchestration | 智能体编排 | 管理多个 Agent 或多个 Skill 之间协作、调度、状态切换的复杂逻辑。 |
+
+
 
 ### 机器学习 ML (Machine Learning)
 
