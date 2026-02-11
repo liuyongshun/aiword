@@ -1,0 +1,2 @@
+# aiword
+AI词库
